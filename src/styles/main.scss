@@ -1,0 +1,9 @@
+@import '~normalize.css';
+@import '../fonts/bundle';
+
+$font-stack: -apple-system, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+body {
+  font-family: $font-stack;
+  background-color: aliceblue;
+}

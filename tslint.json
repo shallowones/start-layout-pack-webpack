@@ -1,0 +1,34 @@
+{
+  "extends": ["tslint-plugin-prettier", "tslint-config-prettier"],
+  "rules": {
+    "prettier": true,
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "ordered-imports": false,
+    "no-namespace": false,
+    "no-string-literal": false,
+    "no-shadowed-variable": false,
+    "max-classes-per-file": [true, 10],
+    "one-line": true,
+    "max-line-length": [true, 140],
+    "arrow-parens": false,
+    "no-console": [true, "warn", "debug", "table"],
+    "trailing-comma": false,
+    "no-bitwise": true,
+    "member-access": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "no-empty": false,
+    "no-empty-interface": false,
+    "no-var-requires": false,
+    "semicolon": false,
+    "no-async-without-await": true
+  }
+}

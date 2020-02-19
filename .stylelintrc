@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "stylelint-declaration-use-variable",
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "unit-blacklist": [
+      "rem",
+      "em"
+    ],
+    "sh-waqar/declaration-use-variable": "color",
+    "indentation": 2
+  }
+}

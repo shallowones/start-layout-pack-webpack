@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+    head
+        title Тест
+        meta(charset="UTF-8")
+        each item in meta
+            meta(name=item.name, content=item.content)
+        //each item in css
+          link(rel="stylesheet", href=item)
+    body(style="overflow: hidden")
+        main.index-menu
+            h3 Список страниц в проекте
+            include pa
+            ol
+                each page in pages
+                    li
+                        a(href=page)=page
+
+        //each item in js
+          script(src=item)
