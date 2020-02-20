@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=DEVELOPMENT webpack-dev-server",
     "prebuild": "del-cli dist",
-    "build": "cross-env NODE_ENV=PRODUCTION webpack --progress"
+    "build": "cross-env NODE_ENV=PRODUCTION webpack --progress",
+    "postbuild": "node postbuild.js"
   },
   "author": "Pavel Belinovich",
   "license": "ISC",
@@ -33,7 +34,6 @@
     "prettier": "1.19.1",
     "pug-html-loader": "1.1.5",
     "replace-in-file-webpack-plugin": "1.0.6",
-    "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
     "source-map-loader": "0.2.4",
     "stylelint": "13.2.0",

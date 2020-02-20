@@ -130,6 +130,8 @@ module.exports = {
             loader: 'css-loader',
             options: {
               sourceMap: true,
+              url: false,
+              importLoaders: 1
             },
           },
           {
@@ -139,7 +141,6 @@ module.exports = {
               sourceMap: true,
             },
           },
-          'resolve-url-loader',
           {
             loader: 'sass-loader',
             options: {

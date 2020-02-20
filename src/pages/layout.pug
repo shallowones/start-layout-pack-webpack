@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title EDERN Restaurant
+    meta(charset="UTF-8")
+    each item in meta
+      meta(name=item.name, content=item.content)
+  body
+    .page.header-showed
+      include includes/header
+      block content
